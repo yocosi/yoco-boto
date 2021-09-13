@@ -34,7 +34,7 @@ const commands = {
     response: (argument) => `Allez tous follow la chaîne de https://twitch.tv/${argument}`
   },
   hb: {
-    response: (argument) => `C'est l'anniversaire de ${argument} aujourd'hui, tout le monde lui souhaite un joyeux anniversaire PartyPopper PartyPopper`
+    response: (argument) => `C'est l'anniversaire de ${argument} aujourd'hui, tout le monde lui souhaite un joyeux anniversaire <3 <3`
   }
 }
 
