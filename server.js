@@ -8,7 +8,7 @@ const client = new tmi.client({
   },
   identity: {
     username: process.env.TWITCH_BOT_USERNAME,
-    password: process.env.TWITCH_0AUTH_TOKEN
+    password: process.env.TWITCH_OAUTH_TOKEN
   },
   channels: ["yocosi"]
 });
@@ -20,6 +20,9 @@ const regexpCommand = new RegExp(/^!([a-zA-Z0-9]+)(?:\W+)?(.*)?/);
 const commands = {
   discord: {
     response: "https://discord.gg/2nn22bpN"
+  },
+  github: {
+    response: "https://github.com/yocosi"
   },
   ca: {
     response: "4563-6013-3726"
