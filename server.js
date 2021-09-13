@@ -35,6 +35,13 @@ const commands = {
   },
   hb: {
     response: (argument) => `C'est l'anniversaire de ${argument} aujourd'hui, tout le monde lui souhaite un joyeux anniversaire <3 <3`
+  },
+  dés: {
+    response: () => {
+      let x = 3;
+      let y = 2;
+      return `${(x + y).toString()}`;
+    }
   }
 }
 
