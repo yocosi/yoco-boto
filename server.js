@@ -43,7 +43,7 @@ client.on("message", (channel, tags, message, self) => {
   const isNotBot = tags.username.toLowerCase() !== process.env.TWITCH_BOT_USERNAME.toLowerCase();
   if (!isNotBot) return; // Si c'est le bot qui essaie d'écrire une commande, le script shutdown
 
-  console.log('channel', `${tags.username}: ${message}`);
+  console.log(`${tags.username}: ${message}`);
   // La méthode 'match' va retourner un tableau de valeur ou l'index 0 est le !, l'index 1 la commande et l'index 2 l'argument de la commande
   const [raw, command, argument] = message.match(regexpCommand);
 
