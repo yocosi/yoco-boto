@@ -38,6 +38,7 @@ const commands = {
   },
   dice: {
     response: (argument) => {
+      // Check si l'argument qui a été rentré est bien un nombre entier
       let isnum = /^\d+$/.test(argument);
 
       if (isnum) {
@@ -47,6 +48,7 @@ const commands = {
         return "L'argument n'est pas valide, le jet de dés est impossible";
       }
     }
+
   }
 }
 
