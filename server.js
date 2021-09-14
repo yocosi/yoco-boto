@@ -51,17 +51,6 @@ const commands = {
         return "L'argument n'est pas valide, le jet de dés est impossible";
       }
     }
-  },
-  timerDiscord: {
-    response: (argument) => {
-
-      function announceInterval() {
-        "Hesitez pas à nous rejoindre sur discord si ce n'est pas encore fait: https://discord.gg/2nn22bpN";
-      }
-
-      setInterval(announceInterval, `${argument}`);
-
-    }
   }
 }
 
