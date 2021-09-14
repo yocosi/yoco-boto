@@ -54,7 +54,13 @@ const commands = {
   },
   timerDiscord: {
     response: (argument) => {
-      setInterval("Hésitez pas à nous rejoindre sur discord si ce n'est pas déjà fait: https://discord.gg/2nn22bpN", `${argument}`);
+
+      function announceInterval() {
+        "Hesitez pas à nous rejoindre sur discord si ce n'est pas encore fait: https://discord.gg/2nn22bpN";
+      }
+
+      setInterval(announceInterval, `${argument}`);
+
     }
   }
 }
