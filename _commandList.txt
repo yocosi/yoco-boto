@@ -1,0 +1,15 @@
+!discord => Donne l'adresse du serveur discord.
+
+!github => Donne l'adresse de mes repos github.
+
+!ca => Donne mon code ami Nintendo Switch.
+
+!twitter => Donne l'adresse de mon compte twitter.
+
+!pub [argument] => Permet de faire la pub de la chaine twitch rentré en argument.
+
+!hb [argument] => Souhaite l'anniversaire de la personne rentré en argument.
+
+!dice [argument] => Permet de lancer un dés qui renvoi une valeur aléatoire     comprise entre 1 et le nombre rentré en argument.
+
+!commands => Donne le lien du fichier texte qui liste toutes les commandes.

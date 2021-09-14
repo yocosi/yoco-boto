@@ -30,6 +30,9 @@ const commands = {
   twitter: {
     response: "https://twitter.com/ZiGZaG_Dokey"
   },
+  commands: {
+    response: "Voici le fichier texte qui regroupe toutes les commandes: https://github.com/yocosi/YocoBoto/blob/main/_commandList.txt"
+  },
   pub: {
     response: (argument) => `Allez tous follow la chaîne de https://twitch.tv/${argument}`
   },
