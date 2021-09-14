@@ -76,7 +76,7 @@ client.on("message", (channel, tags, message, self) => {
 
 });
 
-client.on((channel, tags) => {
+client.on('connected', (channel, tags) => {
 
   setInterval(() => {
     client.say(channel, "N'hésitez pas à nous rejoindre sur discord => https://discord.gg/2nn22bpN");
