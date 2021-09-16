@@ -18,6 +18,9 @@ const regexpCommand = new RegExp(/^!([a-zA-Z0-9]+)(?:\W+)?(.*)?/);
 
 // Liste de toutes les commandes
 const commands = {
+  bot: {
+    response: "Bonjour à tous je suis YocoBoto l'humble serviteur de mon créateur Yoco le gros que vous pouvez voir streamer ici présent ! Passez un bon moment sur ce magnifique stream du plaisir :D"
+  },
   discord: {
     response: "https://discord.gg/2nn22bpN"
   },
