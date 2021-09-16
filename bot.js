@@ -36,6 +36,10 @@ client.on('connected', (adress, port) => {
   setInterval(() => {
     timers.drinkMessage();
   }, 1800000)
+
+  setInterval(() => {
+    timers.followSubMessage();
+  }, 3600000)
 });
 
 

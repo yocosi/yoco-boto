@@ -7,5 +7,9 @@ module.exports = {
 
   drinkMessage: () => {
     client.say('yocosi', "N'oubliez pas de vous hydrater, c'est important !");
+  },
+
+  followSubMessage: () => {
+    client.say('yocosi', "Si vous aimez mon contenu n'hésitez surtout pas à follow ou sub, c'est le meilleur soutien possible!");
   }
 };
