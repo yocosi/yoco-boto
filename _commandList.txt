@@ -1,3 +1,5 @@
+!bot => Le bot se présente et souhaite à tout le monde de passer un bon moment.
+
 !discord => Donne l'adresse du serveur discord.
 
 !github => Donne l'adresse de mes repos github.
