@@ -1,6 +1,6 @@
 const client = require('./client');
 const commands = require('./commands');
-const fonctions = require('./fonctions');
+const timers = require('./timers');
 
 // Permet de reconnaître une commande et son argument si il y en a un
 const regexpCommand = new RegExp(/^!([a-zA-Z0-9]+)(?:\W+)?(.*)?/);
@@ -30,11 +30,11 @@ client.on('message', (channel, tags, message, self) => {
 
 client.on('connected', (adress, port) => {
   setInterval(() => {
-    fonctions.discordMessage();
+    timers.discordMessage();
   }, 3600000)
 
   setInterval(() => {
-    fonctions.drinkMessage();
+    timers.drinkMessage();
   }, 1800000)
 });
 
