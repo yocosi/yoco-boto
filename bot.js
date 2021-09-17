@@ -33,15 +33,15 @@ client.on('message', async (channel, tags, message, self) => {
 client.on('connected', (adress, port) => {
   setInterval(() => {
     timers.discordMessage();
-  }, 3600000)
+  }, 7920000)
 
   setInterval(() => {
     timers.drinkMessage();
-  }, 1800000)
+  }, 3600000)
 
   setInterval(() => {
     timers.followSubMessage();
-  }, 3600000)
+  }, 7020000)
 });
 
 
