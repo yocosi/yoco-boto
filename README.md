@@ -1,5 +1,5 @@
 # YocoBoto
-<b>Little Twitch chat bot</b>
+<b>NodeJS/ExpressJS - Little Twitch chat bot</b>
 
 Here is a little french Twitch chatbot for my own twitch channel.<br>
 I'll add some commands later on, for now here is the commands list: <br><br>
