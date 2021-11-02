@@ -4,7 +4,7 @@ const commands = {
     response: "Bonjour à tous je suis YocoBoto l'humble serviteur de mon créateur Yoco le gros que vous pouvez voir streamer ici présent ! Passez un bon moment sur ce magnifique stream du plaisir :D"
   },
   discord: {
-    response: "https://discord.gg/2nn22bpN"
+    response: "https://discord.gg/Sq4xthdF"
   },
   github: {
     response: "https://github.com/yocosi"
