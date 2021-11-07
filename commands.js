@@ -3,6 +3,9 @@ const commands = {
   bot: {
     response: "Bonjour à tous je suis YocoBoto l'humble serviteur de mon créateur Yoco le gros que vous pouvez voir streamer ici présent ! Passez un bon moment sur ce magnifique stream du plaisir :D"
   },
+  about: {
+    response: "https://www.twitch.tv/videos/1198323344"
+  },
   discord: {
     response: "https://discord.gg/Sq4xthdF"
   },
